@@ -1,0 +1,45 @@
+/* 
+    title: Hero.module.css file .. 
+    desc: A simple css file for  store all styles for facts website 
+    date: 0 / jan / 2023 ... 
+*/
+.container {
+  background: #e0e0e096;
+}
+/* rowWellcome */
+.rowWellcome {
+  margin: 10px 54px;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  color: rgb(26, 21, 21);
+}
+/* imageWrraper */
+.imageWrraper {
+  display: flex;
+
+  position: sticky;
+  margin-top: -70px;
+  justify-content: right;
+}
+/* topIcon */
+.topIcon {
+  color: var(--activeGreen);
+  margin-right: 3px;
+}
+
+/*  Responsibe */
+@media screen and (max-width: 390px) {
+  .imageWrraper {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+/* 732 qury === 'active'  */
+@media screen and (max-width: 732px) {
+  .imageWrraper {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}

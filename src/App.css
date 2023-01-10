@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+/*  import goolgle font  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+}
+:root {
+  --activeGreen: #2dbf64;
+  --fontPrimary: #002333;
+  --questionBG: #e4e8ee;
+  --successGreen: #00ff84;
+  --newGreen: #1dd881;
+  --bodyBackground: #f2f4f8;
+  --smartYellow: #ffc916;
+  --smartBlue: #0070f3;
+  --purpule: #728fce;
+}
+/*  body section */
+body {
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+}
+/* scroll bar */
+html::-webkit-scrollbar {
+  width: 0.8rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html::-webkit-scrollbar-track {
+  background: var(--fontPrimary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html::-webkit-scrollbar-thumb {
+  background: var(--fontPrimary);
+  border-right: 2px solid var(--purpule);
+  border-radius: 5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* wellcomeIcon */
+.wellcomeIcon{
+  background-color: #2dbf65f3;
+  border-top-right-radius: 0.6rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* arroySignal */
+.arroySignal{
+  background: rgba(151, 151, 151, 0.678);
 }

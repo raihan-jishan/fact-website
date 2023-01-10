@@ -1,0 +1,179 @@
+/*  footer customization  */
+.footer{
+    margin-top: 60px;
+    background: #000;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 13px;
+}
+/* navlinks */
+.navlinks{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+/* navlinks a */
+.navlinks a{
+    display: inline;
+    margin: 10px;
+    color: #424242;
+    padding: 12px;
+    font-size: 1.3rem;
+    transition: 0.1s ;
+}
+/* navlinks a hover */
+.navlinks a:hover{
+    color: #000000;
+    font-weight: bold;
+    background: #fb5200;
+     padding: 12px;
+     border-radius: 2rem;
+     
+}
+/*  if click anything link orange colo background in the sorrunding */
+.active{
+    border-radius: 1rem;
+    color: #f2f2f2  !important;
+    background: #fb5100;
+}
+/* connectUs */
+.connectUs{
+    color: #ffff;
+
+}
+/* connectUs span */
+.connectUs span{
+    margin: 10px;
+    font-size: 2rem;
+    transition: 0.1s;
+}
+/*  icon customization */
+.facebook{
+    padding: 6px 20px;
+    color: rgb(0, 91, 128);
+
+}
+.facebook:hover{
+    font-size: 2.2rem;
+    background: rgba(119, 119, 119, 0.247);
+    border-radius: 2rem;
+    color: rgb(10, 140, 145);
+}
+/*  twitter  */
+.twitter{ 
+    color: #26a7de ;
+}
+/* twitter hover */
+.twitter:hover{
+    font-size: 2.2rem;
+    color: #0e78a5;
+}
+/* github */
+.github{
+    color: #acacac;
+}
+/* github hover */
+.github:hover{
+    color: var(--newGreen);
+    font-size: 2.5rem;
+    border-top: 1px solid rgb(95, 95, 95);
+    border-radius: 1rem;
+}
+/* onotherLast */
+.onotherLast  {
+    margin-top: 10px;
+    color: springgreen;
+    display: flex;
+    align-content: center;
+    letter-spacing: 2px ;
+    justify-content: center;
+    }
+    /* contactLinks */
+    .contactLinks{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .contactLinks h2{
+        display: inline;
+        margin: 10px;
+        color: #e0e0e0;
+        transition: 0.2s;
+    }
+    .contactLinks h2:hover{
+        /* transform:scale(1.2); */
+        width: calc(50% - 30px);
+        text-align: center;
+    }
+    /* hover */
+   .location{
+    border-radius: 1rem;
+    padding: 5px 10px;
+    background: #7e7e7e38;
+   }
+   .location:hover{
+    background: var(--activeGreen);
+   }
+  .add{
+    color: rgb(16, 255, 135);
+  }
+  .phone{
+    
+    border-radius: 1rem;
+    padding: 5px 10px;
+    margin: 2px;
+    background: #7e7e7e38;
+  }
+  .phone:hover{
+    color: seagreen;
+
+  }
+  .email{
+    font-size: 1.5rem;
+  }
+  .email:hover{
+    border-radius: 3rem;
+    padding: 5px 10px;
+    background: #7e7e7e38;
+  }
+    /*  res ponsibe */
+    @media screen and (max-width:390px) {
+        .connectUs{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+             
+        }
+        .navlinks{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .contactLinks{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width:400px) {
+        .connectUs{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+             
+        }
+        .navlinks{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .contactLinks{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }

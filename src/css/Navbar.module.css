@@ -1,0 +1,88 @@
+/* 
+ Titile: A separate module navbar file to store all navbar realted css there ...
+  desc: A separate file that's it ! ... No rocket science .... 
+ date: 03 - Jan - 2023 ..
+ */
+.Navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: #000;
+    padding: 22px;
+    color: silver;
+}
+/*  Navmodule a  */
+.Navmodules a{
+    padding: 12px;
+    margin: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: 0.1s;
+
+}
+ 
+/*  Navmodule a hover  */
+.Navmodules a:hover{
+    border-radius: 1rem;
+    border: 0;
+    background: rgba(148, 148, 148, 0.26);
+}
+/* NavigateIcon */
+.NavigateIcon{
+    margin: -2px;
+}
+/* LogoP */
+.LogoP{ 
+    background: #000;
+    
+}
+/* active link */
+.active{
+    background: rgb(0, 0, 0);
+    border-top: 1px solid var(--purpule);
+    border-radius: 1rem;
+
+}
+/*  Active === popular */
+.Active{
+    background: var(--newGreen);
+    color: rgb(14, 14, 14);
+    border-radius: 0.8rem;
+}
+/* Resposibe */
+@media screen and ( max-width: 408px ) {
+    .Navmodules a {
+        margin: 1px;
+    }
+}
+@media screen and ( max-width: 390px ) {
+    .Navmodules a {
+        margin: 0px;
+    }
+}
+@media screen and ( max-width: 430px ) {
+    .Navmodules a {
+        margin: 0px;
+    }
+}
+@media screen and ( max-width: 458px ) {
+    .Navmodules a {
+        margin: 0px;
+    }
+}
+/*  samsung galaxy zfold  */
+@media screen and ( max-width: 280px ) {
+    .Navmodules a { 
+        padding: 2px;
+      
+        margin-left: 3px;
+       
+    }
+}
+@media screen and ( max-width: 375px ) {
+    .Navmodules a { 
+       margin: 0px;
+       
+    }
+}
